@@ -49,7 +49,7 @@ void mainprorisovka(){
 	};
     };
 void hod(str &otkuda,str &kuda){
-	for(int j =0;j<8;j++)
+	for(int j = 0;j<8;j++)
 	{
     char uuu = otkuda.m[otkuda.extra+1][j];
     otkuda.m[otkuda.extra+1][j] = kuda.m[kuda.extra][j];
